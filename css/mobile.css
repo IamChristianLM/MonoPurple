@@ -1,0 +1,100 @@
+h1 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+p {
+    text-align: center;
+}
+
+#navbar {
+    padding: 0 10px;
+}
+
+.navbar_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .logo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar ul li {
+    padding-bottom: 6px;
+}
+
+#navbar ul li a {
+    padding: 8px;
+}
+
+
+/* Showcase */
+
+#showcase {
+    padding: 40px 5px;
+}
+
+.showcase-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.showcase-text .title-one {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.showcase-text .title-two {
+    color: #847cf6;
+}
+
+.large {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* About */
+
+#about {
+    padding: 80px 15px;
+}
+
+.about_container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.about-title h2 {
+    padding-bottom: 20px;
+}
+
+
+/* Contact */
+
+#contact {
+    padding: 80px 15px;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contact_text {
+    text-align: center;
+    padding-bottom: 60px;
+}
